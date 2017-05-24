@@ -5,8 +5,9 @@ package com.allego.scorm.util;
  */
 
 
-import java.io.*;
-import java.util.List;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -19,7 +20,7 @@ public class UnZip {
     public byte[] getFileContent(String fileName) throws IOException {
         byte[] result = null;
         ZipInputStream zis =
-                new ZipInputStream(new FileInputStream(fileName));
+                new ZipInputStream(new FileInputStream(pathToZip));
         byte[] data = new byte [16384];
 
             ZipEntry ze = zis.getNextEntry();
@@ -37,6 +38,7 @@ public class UnZip {
 
 
                 }
+                ze = zis.getNextEntry();
             }
             zis.closeEntry();
             zis.close();

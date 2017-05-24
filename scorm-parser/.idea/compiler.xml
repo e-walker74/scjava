@@ -9,8 +9,8 @@
         <module name="scorm-parser" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="scorm-parser" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="scorm-parser" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

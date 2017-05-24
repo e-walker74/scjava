@@ -1,38 +1,23 @@
 package com.allego.scorm;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+import org.junit.Assert;
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+public class AppTest {
+
+    private String baseDir = System.getProperty("user.dir") + "/suites/";
+
+    @org.junit.Test
+    public void testApp() {
+
+        IScormParser parser = ScormParserFactory.getScormParser();
+
+        try {
+            parser.parse(baseDir + "scorm12/golf12.zip", "", "", "", "");
+        } catch (BadSCORMPackageException e) {
+            e.printStackTrace();
+        }
+        Assert.assertTrue(true);
     }
 }

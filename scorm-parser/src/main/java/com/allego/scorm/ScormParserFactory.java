@@ -6,7 +6,8 @@ package com.allego.scorm;
 public class ScormParserFactory {
 
     public static IScormParser getScormParser() {
-        return null;
+
+        return new S3ScormUploader();
     }
 
 }
