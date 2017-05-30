@@ -1,6 +1,6 @@
 package com.allego.scorm.lom;
 
-import com.allego.scorm.IScormParserResult;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -11,11 +11,20 @@ public class ScormPackage {
 
     private String packageScormVersion;
 
+    private JSONObject rawData;
+    private String location;
+
     private  ArrayList<Item> items = new ArrayList();
 
-    public ScormPackage(String scormVersion ) {
+    public ScormPackage(String scormVersion, JSONObject data) {
         packageScormVersion = scormVersion;
+        rawData = data;
 
+
+    }
+
+    public void setLocation(String path) {
+        location = path;
     }
     public String getCallPath(String item) {
         return null;

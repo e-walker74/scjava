@@ -1,6 +1,6 @@
 package com.allego.scorm;
 
-import com.allego.scorm.lom.*;
+import com.allego.scorm.lom.ScormPackage;
 
 /**
  * Created by e_walker on 23.05.17.
@@ -16,9 +16,9 @@ public class S3CloudResult  implements  IScormParserResult{
 
     }
 
-    public String getScormVersion() throws PackageNotFoundException {
+    public String getScormVersion() {
         if (uploadedPackage == null){
-            throw new PackageNotFoundException("Package is not created");
+            return IScormParserResult.INVALID_SCORM_VERSION;
         }
         return uploadedPackage.getScormVersion();
     }
