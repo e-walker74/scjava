@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:imscp="http://www.imsglobal.org/xsd/imscp_v1p1"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:adlcp = "http://www.adlnet.org/xsd/adlcp_v1p3"
                 version="2.0"
                 xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
                               http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd"
@@ -55,6 +56,10 @@
 
         <xsl:text>,&quot;title&quot;:</xsl:text>&quot;<xsl:value-of select="imscp:title"/>&quot;
 
+        <xsl:apply-templates select="adlcp:timeLimitaction"/>
+        <xsl:apply-templates select="adlcp:dataFromLMS"/>
+        <xsl:apply-templates select="adlcp:completionThreshold"/>
+
         <xsl:if test="imscp:item !=''">
             <xsl:text>,&quot;items&quot;:[</xsl:text>
             <xsl:apply-templates select="imscp:item"/>
@@ -65,6 +70,20 @@
             <xsl:text>,</xsl:text>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="text()"/>
 
-</xsl:stylesheet>
+    <xsl:template match="adlcp:timelimitaction">
+        <xsl:text>,&quot;actionOnTimeLimit&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+    <xsl:template match="adlcp:datafromlms">
+        <xsl:text>,&quot;dataFromLMS&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+    <xsl:template match="adlcp:completionThreshold">
+        <xsl:text>,&quot;completionThreshold;:&quot;</xsl:text><xsl:text>{&quot;completedByMeasure:&quot;</xsl:text><xsl:value-of select="@completedByMeasure"/>&quot;,<xsl:text> &quot;minProgressMeasure:&quot;</xsl:text><xsl:value-of select="@minProgressMeasure"/>&quot;<xsl:text>}</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="text()"/>
+
+        </xsl:stylesheet>
