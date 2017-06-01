@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:imscp="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+                xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 version="2.0"
                 xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
@@ -54,6 +55,15 @@
 
 
         <xsl:text>,&quot;title&quot;:</xsl:text>&quot;<xsl:value-of select="imscp:title"/>&quot;
+        <xsl:if test="adlcp:prerequisites !=''">
+            <xsl:text>,&quot;conditions&quot;:[</xsl:text>
+            <xsl:apply-templates select="adlcp:prerequisites"/>
+            <xsl:text>]</xsl:text>
+        </xsl:if>
+        <xsl:apply-templates select="adlcp:maxtimeallowed"/>
+        <xsl:apply-templates select="adlcp:timelimitaction"/>
+        <xsl:apply-templates select="adlcp:datafromlms"/>
+        <xsl:apply-templates select="adlcp:masteryscore"/>
 
         <xsl:if test="imscp:item !=''">
             <xsl:text>,&quot;items&quot;:[</xsl:text>
@@ -65,6 +75,33 @@
             <xsl:text>,</xsl:text>
         </xsl:if>
     </xsl:template>
+
+    <xsl:template match="adlcp:prerequisites">
+        <xsl:text>{</xsl:text>
+        <xsl:text>&quot;condition&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+        <xsl:text>}</xsl:text>
+        <xsl:if test="position() != last()">
+            <xsl:text>,</xsl:text>
+        </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="adlcp:maxtimeallowed">
+        <xsl:text>,&quot;maxTimeAllowed&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+    <xsl:template match="adlcp:timelimitaction">
+        <xsl:text>,&quot;actionOnTimeLimit&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+    <xsl:template match="adlcp:datafromlms">
+        <xsl:text>,&quot;dataFromLMS&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+    <xsl:template match="adlcp:masteryscore">
+        <xsl:text>,&quot;masteryScore&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+    </xsl:template>
+
+
     <xsl:template match="text()"/>
 
 </xsl:stylesheet>
