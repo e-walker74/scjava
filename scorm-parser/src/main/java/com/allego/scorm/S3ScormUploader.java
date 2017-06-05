@@ -8,6 +8,7 @@ import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
+import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
 import org.json.JSONObject;
@@ -153,20 +154,36 @@ public class S3ScormUploader  implements IScormParser{
         }
         try {
 
+
             File file = new File(pathToInputScormPackage);
+
+
+            ObjectMetadata metadata = new ObjectMetadata();
+            metadata.addUserMetadata("scorm","1");
+
+            metadata.setContentType("application/zip");
+            metadata.setContentLength(file.length());
+
+
+            FileInputStream fileData =  new FileInputStream(file);
             String filePath;
             if (parentTargetPath.endsWith("/")) {
                 filePath = parentTargetPath+"scorm.zip";
             } else {
                 filePath = parentTargetPath+"/scorm.zip";
             }
+
+
+
             s3client.putObject(new PutObjectRequest(
-                    bucket, filePath, file));
+                    bucket, filePath,fileData,metadata));
 
         } catch (AmazonServiceException ase) {
            throw new ScormUploadException(ase.getErrorMessage());
         } catch (AmazonClientException ace) {
             throw new ScormUploadException(ace.getMessage());
+        } catch (FileNotFoundException fe) {
+            throw new ScormUploadException(fe.getMessage());
         }
 
     }

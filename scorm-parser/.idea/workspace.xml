@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077ac448-e60c-43d0-8293-b3eadaaf65ad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +24,71 @@
       <file leaf-file-name="S3ScormUploader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="145" column="18" lean-forward="false" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+            <state relative-caret-position="480">
+              <caret line="172" column="39" lean-forward="true" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scorm2004.xsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <folding>
+                <element signature="e#1008#1014#0" expanded="true" />
+                <element signature="e#1021#1027#0" expanded="true" />
+                <element signature="e#1028#1034#0" expanded="true" />
+                <element signature="e#1067#1073#0" expanded="true" />
+                <element signature="e#1111#1117#0" expanded="true" />
+                <element signature="e#1124#1130#0" expanded="true" />
+                <element signature="e#1349#1355#0" expanded="true" />
+                <element signature="e#1357#1363#0" expanded="true" />
+                <element signature="e#1375#1381#1" expanded="true" />
+                <element signature="e#1417#1423#0" expanded="true" />
+                <element signature="e#1443#1449#0" expanded="true" />
+                <element signature="e#1454#1460#0" expanded="true" />
+                <element signature="e#1472#1478#1" expanded="true" />
+                <element signature="e#1514#1520#0" expanded="true" />
+                <element signature="e#1540#1546#0" expanded="true" />
+                <element signature="e#1551#1557#0" expanded="true" />
+                <element signature="e#1889#1895#0" expanded="true" />
+                <element signature="e#1897#1903#0" expanded="true" />
+                <element signature="e#1915#1921#1" expanded="true" />
+                <element signature="e#1957#1963#0" expanded="true" />
+                <element signature="e#2031#2037#0" expanded="true" />
+                <element signature="e#2040#2046#0" expanded="true" />
+                <element signature="e#2058#2064#1" expanded="true" />
+                <element signature="e#2128#2134#0" expanded="true" />
+                <element signature="e#2217#2223#0" expanded="true" />
+                <element signature="e#2232#2238#0" expanded="true" />
+                <element signature="e#2250#2256#1" expanded="true" />
+                <element signature="e#2291#2297#0" expanded="true" />
+                <element signature="e#2337#2343#0" expanded="true" />
+                <element signature="e#2348#2354#0" expanded="true" />
+                <element signature="e#2366#2372#1" expanded="true" />
+                <element signature="e#2408#2414#0" expanded="true" />
+                <element signature="e#2666#2672#0" expanded="true" />
+                <element signature="e#2677#2683#0" expanded="true" />
+                <element signature="e#3023#3029#0" expanded="true" />
+                <element signature="e#3046#3052#0" expanded="true" />
+                <element signature="e#3053#3059#0" expanded="true" />
+                <element signature="e#3096#3102#0" expanded="true" />
+                <element signature="e#3188#3194#0" expanded="true" />
+                <element signature="e#3205#3211#0" expanded="true" />
+                <element signature="e#3212#3218#0" expanded="true" />
+                <element signature="e#3255#3261#0" expanded="true" />
+                <element signature="e#3355#3361#0" expanded="true" />
+                <element signature="e#3382#3388#0" expanded="true" />
+                <element signature="e#3410#3416#0" expanded="true" />
+                <element signature="e#3435#3441#0" expanded="true" />
+                <element signature="e#3508#3514#0" expanded="true" />
+                <element signature="e#3526#3532#0" expanded="true" />
+                <element signature="e#3551#3557#0" expanded="true" />
+                <element signature="e#3624#3630#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,6 +100,50 @@
             <state relative-caret-position="30">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scorm12.xsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="57" />
+              <folding>
+                <element signature="e#1044#1050#0" expanded="true" />
+                <element signature="e#1057#1063#0" expanded="true" />
+                <element signature="e#1064#1070#0" expanded="true" />
+                <element signature="e#1103#1109#0" expanded="true" />
+                <element signature="e#1147#1153#0" expanded="true" />
+                <element signature="e#1160#1166#0" expanded="true" />
+                <element signature="e#1385#1391#0" expanded="true" />
+                <element signature="e#1393#1399#0" expanded="true" />
+                <element signature="e#1411#1417#1" expanded="true" />
+                <element signature="e#1453#1459#0" expanded="true" />
+                <element signature="e#1479#1485#0" expanded="true" />
+                <element signature="e#1490#1496#0" expanded="true" />
+                <element signature="e#1508#1514#1" expanded="true" />
+                <element signature="e#1550#1556#0" expanded="true" />
+                <element signature="e#1576#1582#0" expanded="true" />
+                <element signature="e#1587#1593#0" expanded="true" />
+                <element signature="e#1925#1931#0" expanded="true" />
+                <element signature="e#1933#1939#0" expanded="true" />
+                <element signature="e#1951#1957#1" expanded="true" />
+                <element signature="e#1993#1999#0" expanded="true" />
+                <element signature="e#2067#2073#0" expanded="true" />
+                <element signature="e#2076#2082#0" expanded="true" />
+                <element signature="e#2094#2100#1" expanded="true" />
+                <element signature="e#2164#2170#0" expanded="true" />
+                <element signature="e#2253#2259#0" expanded="true" />
+                <element signature="e#2268#2274#0" expanded="true" />
+                <element signature="e#2286#2292#1" expanded="true" />
+                <element signature="e#2327#2333#0" expanded="true" />
+                <element signature="e#2373#2379#0" expanded="true" />
+                <element signature="e#2384#2390#0" expanded="true" />
+                <element signature="e#2402#2408#1" expanded="true" />
+                <element signature="e#2444#2450#0" expanded="true" />
+                <element signature="e#3985#3991#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +178,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+              <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,17 +190,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParserResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -104,17 +200,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3CloudResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scorm-parser.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scorm-parser.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="63" />
+              <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -124,7 +210,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="false" />
                 <element signature="e#502#503#0" expanded="true" />
@@ -189,8 +275,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/ScormParserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/util/UnZip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/UnsupportedManifestTypeException.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/DirectoryAlreadyExistsException.java" />
@@ -200,6 +284,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParserResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3CloudResult.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" />
       </list>
     </option>
@@ -1096,7 +1182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1495464234830</updated>
       <workItem from="1495464286746" duration="51165000" />
-      <workItem from="1496143402598" duration="23223000" />
+      <workItem from="1496143402598" duration="29442000" />
     </task>
     <task id="LOCAL-00001" summary="alfa version (without s3 lambda to unzip)">
       <created>1495540905044</created>
@@ -1126,19 +1212,17 @@
       <option name="project" value="LOCAL" />
       <updated>1496171369332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="beta version">
+      <created>1496275620218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496275620218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2017.05.30 at 21h 18m 33s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2017.05.30 at 21h 24m 08s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2017.05.30 at 21h 37m 16s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2017.05.30 at 21h 56m 07s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -1160,9 +1244,18 @@
     <history-entry file="AppTest - 2017.05.31 at 22h 14m 10s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2017.06.05 at 15h 54m 10s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2017.06.05 at 16h 06m 53s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2017.06.05 at 16h 08m 11s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74388000" />
+    <option name="totallyTimeSpent" value="80607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -1171,14 +1264,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.44739583" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.44114584" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.34375" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.3515625" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.65625" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.6484375" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1240,40 +1333,56 @@
         <state relative-caret-position="165">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <element signature="e#941#947#0" expanded="true" />
-            <element signature="e#954#960#0" expanded="true" />
-            <element signature="e#961#967#0" expanded="true" />
-            <element signature="e#1000#1006#0" expanded="true" />
-            <element signature="e#1044#1050#0" expanded="true" />
-            <element signature="e#1057#1063#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
-            <element signature="e#1290#1296#0" expanded="true" />
-            <element signature="e#1308#1314#1" expanded="true" />
-            <element signature="e#1350#1356#0" expanded="true" />
-            <element signature="e#1376#1382#0" expanded="true" />
-            <element signature="e#1387#1393#0" expanded="true" />
-            <element signature="e#1405#1411#1" expanded="true" />
-            <element signature="e#1447#1453#0" expanded="true" />
-            <element signature="e#1473#1479#0" expanded="true" />
-            <element signature="e#1484#1490#0" expanded="true" />
-            <element signature="e#1822#1828#0" expanded="true" />
-            <element signature="e#1830#1836#0" expanded="true" />
-            <element signature="e#1848#1854#1" expanded="true" />
-            <element signature="e#1890#1896#0" expanded="true" />
-            <element signature="e#1964#1970#0" expanded="true" />
-            <element signature="e#1973#1979#0" expanded="true" />
-            <element signature="e#1991#1997#1" expanded="true" />
-            <element signature="e#2061#2067#0" expanded="true" />
-            <element signature="e#2150#2156#0" expanded="true" />
-            <element signature="e#2165#2171#0" expanded="true" />
-            <element signature="e#2183#2189#1" expanded="true" />
-            <element signature="e#2224#2230#0" expanded="true" />
-            <element signature="e#2270#2276#0" expanded="true" />
-            <element signature="e#2281#2287#0" expanded="true" />
-            <element signature="e#2299#2305#1" expanded="true" />
-            <element signature="e#2341#2347#0" expanded="true" />
-            <element signature="e#2412#2418#0" expanded="true" />
-            <element signature="e#2423#2429#0" expanded="true" />
+            <element signature="e#1008#1014#0" expanded="true" />
+            <element signature="e#1021#1027#0" expanded="true" />
+            <element signature="e#1028#1034#0" expanded="true" />
+            <element signature="e#1067#1073#0" expanded="true" />
+            <element signature="e#1111#1117#0" expanded="true" />
+            <element signature="e#1124#1130#0" expanded="true" />
+            <element signature="e#1349#1355#0" expanded="true" />
+            <element signature="e#1357#1363#0" expanded="true" />
+            <element signature="e#1375#1381#1" expanded="true" />
+            <element signature="e#1417#1423#0" expanded="true" />
+            <element signature="e#1443#1449#0" expanded="true" />
+            <element signature="e#1454#1460#0" expanded="true" />
+            <element signature="e#1472#1478#1" expanded="true" />
+            <element signature="e#1514#1520#0" expanded="true" />
+            <element signature="e#1540#1546#0" expanded="true" />
+            <element signature="e#1551#1557#0" expanded="true" />
+            <element signature="e#1889#1895#0" expanded="true" />
+            <element signature="e#1897#1903#0" expanded="true" />
+            <element signature="e#1915#1921#1" expanded="true" />
+            <element signature="e#1957#1963#0" expanded="true" />
+            <element signature="e#2031#2037#0" expanded="true" />
+            <element signature="e#2040#2046#0" expanded="true" />
+            <element signature="e#2058#2064#1" expanded="true" />
+            <element signature="e#2128#2134#0" expanded="true" />
+            <element signature="e#2217#2223#0" expanded="true" />
+            <element signature="e#2232#2238#0" expanded="true" />
+            <element signature="e#2250#2256#1" expanded="true" />
+            <element signature="e#2291#2297#0" expanded="true" />
+            <element signature="e#2337#2343#0" expanded="true" />
+            <element signature="e#2348#2354#0" expanded="true" />
+            <element signature="e#2366#2372#1" expanded="true" />
+            <element signature="e#2408#2414#0" expanded="true" />
+            <element signature="e#2666#2672#0" expanded="true" />
+            <element signature="e#2677#2683#0" expanded="true" />
+            <element signature="e#3023#3029#0" expanded="true" />
+            <element signature="e#3046#3052#0" expanded="true" />
+            <element signature="e#3053#3059#0" expanded="true" />
+            <element signature="e#3096#3102#0" expanded="true" />
+            <element signature="e#3188#3194#0" expanded="true" />
+            <element signature="e#3205#3211#0" expanded="true" />
+            <element signature="e#3212#3218#0" expanded="true" />
+            <element signature="e#3255#3261#0" expanded="true" />
+            <element signature="e#3355#3361#0" expanded="true" />
+            <element signature="e#3382#3388#0" expanded="true" />
+            <element signature="e#3410#3416#0" expanded="true" />
+            <element signature="e#3435#3441#0" expanded="true" />
+            <element signature="e#3508#3514#0" expanded="true" />
+            <element signature="e#3526#3532#0" expanded="true" />
+            <element signature="e#3551#3557#0" expanded="true" />
+            <element signature="e#3624#3630#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1283,40 +1392,39 @@
         <state relative-caret-position="150">
           <caret line="10" column="87" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="10" selection-end-column="87" />
           <folding>
-            <element signature="e#973#979#0" expanded="true" />
-            <element signature="e#986#992#0" expanded="true" />
-            <element signature="e#993#999#0" expanded="true" />
-            <element signature="e#1032#1038#0" expanded="true" />
-            <element signature="e#1076#1082#0" expanded="true" />
-            <element signature="e#1089#1095#0" expanded="true" />
-            <element signature="e#1314#1320#0" expanded="true" />
-            <element signature="e#1322#1328#0" expanded="true" />
-            <element signature="e#1340#1346#1" expanded="true" />
-            <element signature="e#1382#1388#0" expanded="true" />
-            <element signature="e#1408#1414#0" expanded="true" />
-            <element signature="e#1419#1425#0" expanded="true" />
-            <element signature="e#1437#1443#1" expanded="true" />
+            <element signature="e#1044#1050#0" expanded="true" />
+            <element signature="e#1057#1063#0" expanded="true" />
+            <element signature="e#1064#1070#0" expanded="true" />
+            <element signature="e#1103#1109#0" expanded="true" />
+            <element signature="e#1147#1153#0" expanded="true" />
+            <element signature="e#1160#1166#0" expanded="true" />
+            <element signature="e#1385#1391#0" expanded="true" />
+            <element signature="e#1393#1399#0" expanded="true" />
+            <element signature="e#1411#1417#1" expanded="true" />
+            <element signature="e#1453#1459#0" expanded="true" />
             <element signature="e#1479#1485#0" expanded="true" />
-            <element signature="e#1505#1511#0" expanded="true" />
-            <element signature="e#1516#1522#0" expanded="true" />
-            <element signature="e#1854#1860#0" expanded="true" />
-            <element signature="e#1862#1868#0" expanded="true" />
-            <element signature="e#1880#1886#1" expanded="true" />
-            <element signature="e#1922#1928#0" expanded="true" />
-            <element signature="e#1996#2002#0" expanded="true" />
-            <element signature="e#2005#2011#0" expanded="true" />
-            <element signature="e#2023#2029#1" expanded="true" />
-            <element signature="e#2093#2099#0" expanded="true" />
-            <element signature="e#2182#2188#0" expanded="true" />
-            <element signature="e#2197#2203#0" expanded="true" />
-            <element signature="e#2215#2221#1" expanded="true" />
-            <element signature="e#2256#2262#0" expanded="true" />
-            <element signature="e#2302#2308#0" expanded="true" />
-            <element signature="e#2313#2319#0" expanded="true" />
-            <element signature="e#2331#2337#1" expanded="true" />
+            <element signature="e#1490#1496#0" expanded="true" />
+            <element signature="e#1508#1514#1" expanded="true" />
+            <element signature="e#1550#1556#0" expanded="true" />
+            <element signature="e#1576#1582#0" expanded="true" />
+            <element signature="e#1587#1593#0" expanded="true" />
+            <element signature="e#1925#1931#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1951#1957#1" expanded="true" />
+            <element signature="e#1993#1999#0" expanded="true" />
+            <element signature="e#2067#2073#0" expanded="true" />
+            <element signature="e#2076#2082#0" expanded="true" />
+            <element signature="e#2094#2100#1" expanded="true" />
+            <element signature="e#2164#2170#0" expanded="true" />
+            <element signature="e#2253#2259#0" expanded="true" />
+            <element signature="e#2268#2274#0" expanded="true" />
+            <element signature="e#2286#2292#1" expanded="true" />
+            <element signature="e#2327#2333#0" expanded="true" />
             <element signature="e#2373#2379#0" expanded="true" />
+            <element signature="e#2384#2390#0" expanded="true" />
+            <element signature="e#2402#2408#1" expanded="true" />
             <element signature="e#2444#2450#0" expanded="true" />
-            <element signature="e#2455#2461#0" expanded="true" />
+            <element signature="e#3985#3991#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1548,92 +1656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="86" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="10" selection-end-column="86" />
-          <folding>
-            <element signature="e#973#979#0" expanded="true" />
-            <element signature="e#986#992#0" expanded="true" />
-            <element signature="e#993#999#0" expanded="true" />
-            <element signature="e#1032#1038#0" expanded="true" />
-            <element signature="e#1076#1082#0" expanded="true" />
-            <element signature="e#1089#1095#0" expanded="true" />
-            <element signature="e#1314#1320#0" expanded="true" />
-            <element signature="e#1322#1328#0" expanded="true" />
-            <element signature="e#1340#1346#1" expanded="true" />
-            <element signature="e#1382#1388#0" expanded="true" />
-            <element signature="e#1408#1414#0" expanded="true" />
-            <element signature="e#1419#1425#0" expanded="true" />
-            <element signature="e#1437#1443#1" expanded="true" />
-            <element signature="e#1479#1485#0" expanded="true" />
-            <element signature="e#1505#1511#0" expanded="true" />
-            <element signature="e#1516#1522#0" expanded="true" />
-            <element signature="e#1854#1860#0" expanded="true" />
-            <element signature="e#1862#1868#0" expanded="true" />
-            <element signature="e#1880#1886#1" expanded="true" />
-            <element signature="e#1922#1928#0" expanded="true" />
-            <element signature="e#1996#2002#0" expanded="true" />
-            <element signature="e#2005#2011#0" expanded="true" />
-            <element signature="e#2023#2029#1" expanded="true" />
-            <element signature="e#2093#2099#0" expanded="true" />
-            <element signature="e#2182#2188#0" expanded="true" />
-            <element signature="e#2197#2203#0" expanded="true" />
-            <element signature="e#2215#2221#1" expanded="true" />
-            <element signature="e#2256#2262#0" expanded="true" />
-            <element signature="e#2302#2308#0" expanded="true" />
-            <element signature="e#2313#2319#0" expanded="true" />
-            <element signature="e#2331#2337#1" expanded="true" />
-            <element signature="e#2373#2379#0" expanded="true" />
-            <element signature="e#2444#2450#0" expanded="true" />
-            <element signature="e#2455#2461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="15" selection-end-column="79" />
-          <folding>
-            <element signature="e#941#947#0" expanded="true" />
-            <element signature="e#954#960#0" expanded="true" />
-            <element signature="e#961#967#0" expanded="true" />
-            <element signature="e#1000#1006#0" expanded="true" />
-            <element signature="e#1044#1050#0" expanded="true" />
-            <element signature="e#1057#1063#0" expanded="true" />
-            <element signature="e#1282#1288#0" expanded="true" />
-            <element signature="e#1290#1296#0" expanded="true" />
-            <element signature="e#1308#1314#1" expanded="true" />
-            <element signature="e#1350#1356#0" expanded="true" />
-            <element signature="e#1376#1382#0" expanded="true" />
-            <element signature="e#1387#1393#0" expanded="true" />
-            <element signature="e#1405#1411#1" expanded="true" />
-            <element signature="e#1447#1453#0" expanded="true" />
-            <element signature="e#1473#1479#0" expanded="true" />
-            <element signature="e#1484#1490#0" expanded="true" />
-            <element signature="e#1822#1828#0" expanded="true" />
-            <element signature="e#1830#1836#0" expanded="true" />
-            <element signature="e#1848#1854#1" expanded="true" />
-            <element signature="e#1890#1896#0" expanded="true" />
-            <element signature="e#1964#1970#0" expanded="true" />
-            <element signature="e#1973#1979#0" expanded="true" />
-            <element signature="e#1991#1997#1" expanded="true" />
-            <element signature="e#2061#2067#0" expanded="true" />
-            <element signature="e#2150#2156#0" expanded="true" />
-            <element signature="e#2165#2171#0" expanded="true" />
-            <element signature="e#2183#2189#1" expanded="true" />
-            <element signature="e#2224#2230#0" expanded="true" />
-            <element signature="e#2270#2276#0" expanded="true" />
-            <element signature="e#2281#2287#0" expanded="true" />
-            <element signature="e#2299#2305#1" expanded="true" />
-            <element signature="e#2341#2347#0" expanded="true" />
-            <element signature="e#2412#2418#0" expanded="true" />
-            <element signature="e#2423#2429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scorm-parser.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1699,7 +1721,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#502#503#0" expanded="true" />
@@ -1730,7 +1752,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParserResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1738,7 +1760,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3CloudResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1746,17 +1768,118 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="57" />
+          <folding>
+            <element signature="e#1044#1050#0" expanded="true" />
+            <element signature="e#1057#1063#0" expanded="true" />
+            <element signature="e#1064#1070#0" expanded="true" />
+            <element signature="e#1103#1109#0" expanded="true" />
+            <element signature="e#1147#1153#0" expanded="true" />
+            <element signature="e#1160#1166#0" expanded="true" />
+            <element signature="e#1385#1391#0" expanded="true" />
+            <element signature="e#1393#1399#0" expanded="true" />
+            <element signature="e#1411#1417#1" expanded="true" />
+            <element signature="e#1453#1459#0" expanded="true" />
+            <element signature="e#1479#1485#0" expanded="true" />
+            <element signature="e#1490#1496#0" expanded="true" />
+            <element signature="e#1508#1514#1" expanded="true" />
+            <element signature="e#1550#1556#0" expanded="true" />
+            <element signature="e#1576#1582#0" expanded="true" />
+            <element signature="e#1587#1593#0" expanded="true" />
+            <element signature="e#1925#1931#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1951#1957#1" expanded="true" />
+            <element signature="e#1993#1999#0" expanded="true" />
+            <element signature="e#2067#2073#0" expanded="true" />
+            <element signature="e#2076#2082#0" expanded="true" />
+            <element signature="e#2094#2100#1" expanded="true" />
+            <element signature="e#2164#2170#0" expanded="true" />
+            <element signature="e#2253#2259#0" expanded="true" />
+            <element signature="e#2268#2274#0" expanded="true" />
+            <element signature="e#2286#2292#1" expanded="true" />
+            <element signature="e#2327#2333#0" expanded="true" />
+            <element signature="e#2373#2379#0" expanded="true" />
+            <element signature="e#2384#2390#0" expanded="true" />
+            <element signature="e#2402#2408#1" expanded="true" />
+            <element signature="e#2444#2450#0" expanded="true" />
+            <element signature="e#3985#3991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#1008#1014#0" expanded="true" />
+            <element signature="e#1021#1027#0" expanded="true" />
+            <element signature="e#1028#1034#0" expanded="true" />
+            <element signature="e#1067#1073#0" expanded="true" />
+            <element signature="e#1111#1117#0" expanded="true" />
+            <element signature="e#1124#1130#0" expanded="true" />
+            <element signature="e#1349#1355#0" expanded="true" />
+            <element signature="e#1357#1363#0" expanded="true" />
+            <element signature="e#1375#1381#1" expanded="true" />
+            <element signature="e#1417#1423#0" expanded="true" />
+            <element signature="e#1443#1449#0" expanded="true" />
+            <element signature="e#1454#1460#0" expanded="true" />
+            <element signature="e#1472#1478#1" expanded="true" />
+            <element signature="e#1514#1520#0" expanded="true" />
+            <element signature="e#1540#1546#0" expanded="true" />
+            <element signature="e#1551#1557#0" expanded="true" />
+            <element signature="e#1889#1895#0" expanded="true" />
+            <element signature="e#1897#1903#0" expanded="true" />
+            <element signature="e#1915#1921#1" expanded="true" />
+            <element signature="e#1957#1963#0" expanded="true" />
+            <element signature="e#2031#2037#0" expanded="true" />
+            <element signature="e#2040#2046#0" expanded="true" />
+            <element signature="e#2058#2064#1" expanded="true" />
+            <element signature="e#2128#2134#0" expanded="true" />
+            <element signature="e#2217#2223#0" expanded="true" />
+            <element signature="e#2232#2238#0" expanded="true" />
+            <element signature="e#2250#2256#1" expanded="true" />
+            <element signature="e#2291#2297#0" expanded="true" />
+            <element signature="e#2337#2343#0" expanded="true" />
+            <element signature="e#2348#2354#0" expanded="true" />
+            <element signature="e#2366#2372#1" expanded="true" />
+            <element signature="e#2408#2414#0" expanded="true" />
+            <element signature="e#2666#2672#0" expanded="true" />
+            <element signature="e#2677#2683#0" expanded="true" />
+            <element signature="e#3023#3029#0" expanded="true" />
+            <element signature="e#3046#3052#0" expanded="true" />
+            <element signature="e#3053#3059#0" expanded="true" />
+            <element signature="e#3096#3102#0" expanded="true" />
+            <element signature="e#3188#3194#0" expanded="true" />
+            <element signature="e#3205#3211#0" expanded="true" />
+            <element signature="e#3212#3218#0" expanded="true" />
+            <element signature="e#3255#3261#0" expanded="true" />
+            <element signature="e#3355#3361#0" expanded="true" />
+            <element signature="e#3382#3388#0" expanded="true" />
+            <element signature="e#3410#3416#0" expanded="true" />
+            <element signature="e#3435#3441#0" expanded="true" />
+            <element signature="e#3508#3514#0" expanded="true" />
+            <element signature="e#3526#3532#0" expanded="true" />
+            <element signature="e#3551#3557#0" expanded="true" />
+            <element signature="e#3624#3630#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="145" column="18" lean-forward="false" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+        <state relative-caret-position="480">
+          <caret line="172" column="39" lean-forward="true" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
