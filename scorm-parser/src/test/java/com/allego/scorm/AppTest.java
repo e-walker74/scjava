@@ -1,6 +1,7 @@
 package com.allego.scorm;
 
 
+import com.allego.scorm.lom.Item;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.ObjectListing;
@@ -15,6 +16,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import static org.mockito.Mockito.*;
+
 
 public class AppTest {
 
@@ -26,6 +29,9 @@ public class AppTest {
     private String pathTest1 = "test1";
     private String pathTest2 = "test2";
     private String pathTest3 = "test3";
+
+    private IStudentLog log;
+
 
 
     private void deleteObjects(AmazonS3 s3client, String key) {
@@ -71,6 +77,13 @@ public class AppTest {
         s3AccessKey = prop.getProperty("s3AccessKey");
         s3SecretKey = prop.getProperty("s3SecretKey");
 
+
+        log = mock(IStudentLog.class);
+        when(log.getSuspendedItem()).thenReturn(null);
+
+        when(log.isCompleted(any(Item.class))).thenReturn(false);
+
+
         //empty test folders
        /* AWSCredentials credentials = new BasicAWSCredentials(s3AccessKey, s3SecretKey);
         AmazonS3 s3client = new AmazonS3Client(credentials);
@@ -112,6 +125,8 @@ public class AppTest {
         Assert.assertNotNull(resultData);
         Assert.assertEquals(resultData.getScormVersion(), IScormParserResult.SCORM_1_2);
         Assert.assertEquals(resultData.getStatus(), IScormParserResult.STATUS_SUCCESS);
+
+
     }
 
     @org.junit.Test

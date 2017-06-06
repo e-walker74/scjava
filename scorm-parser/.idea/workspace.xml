@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="077ac448-e60c-43d0-8293-b3eadaaf65ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageNavigation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/IStudentLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/ItemNotFounfException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/SCORMHelper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/BadSCORMPackageException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/DirectoryAlreadyExistsException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/IScormParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/IScormParserResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/PackageNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/S3CloudResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/S3ScormUploader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/ScormParserFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/ScormUploadException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/UnsupportedManifestTypeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/lom/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/lom/ScormPackage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/scorm12.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/scorm2004.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/allego/scorm/util/UnZip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/allego/scorm/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/allego/scorm/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/allego/scorm/scorm12/golf12.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/allego/scorm/scorm2004/golf2004.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/allego/scorm/scormbad/scorm.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scorm-parser.iml" afterPath="$PROJECT_DIR$/scorm-parser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java" afterPath="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +54,67 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="S3ScormUploader.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
+      <file leaf-file-name="IStudentLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IStudentLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="172" column="39" lean-forward="true" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scorm12.xsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="29" />
+              <folding>
+                <element signature="e#1044#1050#0" expanded="true" />
+                <element signature="e#1057#1063#0" expanded="true" />
+                <element signature="e#1064#1070#0" expanded="true" />
+                <element signature="e#1103#1109#0" expanded="true" />
+                <element signature="e#1147#1153#0" expanded="true" />
+                <element signature="e#1160#1166#0" expanded="true" />
+                <element signature="e#1385#1391#0" expanded="true" />
+                <element signature="e#1393#1399#0" expanded="true" />
+                <element signature="e#1411#1417#1" expanded="true" />
+                <element signature="e#1453#1459#0" expanded="true" />
+                <element signature="e#1479#1485#0" expanded="true" />
+                <element signature="e#1490#1496#0" expanded="true" />
+                <element signature="e#1508#1514#1" expanded="true" />
+                <element signature="e#1550#1556#0" expanded="true" />
+                <element signature="e#1576#1582#0" expanded="true" />
+                <element signature="e#1587#1593#0" expanded="true" />
+                <element signature="e#1925#1931#0" expanded="true" />
+                <element signature="e#1933#1939#0" expanded="true" />
+                <element signature="e#1951#1957#1" expanded="true" />
+                <element signature="e#1993#1999#0" expanded="true" />
+                <element signature="e#2067#2073#0" expanded="true" />
+                <element signature="e#2076#2082#0" expanded="true" />
+                <element signature="e#2094#2100#1" expanded="true" />
+                <element signature="e#2164#2170#0" expanded="true" />
+                <element signature="e#2253#2259#0" expanded="true" />
+                <element signature="e#2268#2274#0" expanded="true" />
+                <element signature="e#2286#2292#1" expanded="true" />
+                <element signature="e#2327#2333#0" expanded="true" />
+                <element signature="e#2373#2379#0" expanded="true" />
+                <element signature="e#2384#2390#0" expanded="true" />
+                <element signature="e#2402#2408#1" expanded="true" />
+                <element signature="e#2444#2450#0" expanded="true" />
+                <element signature="e#3985#3991#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
                 <element signature="e#1008#1014#0" expanded="true" />
                 <element signature="e#1021#1027#0" expanded="true" />
@@ -94,128 +181,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/allego/scorm/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scorm12.xsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="57" />
-              <folding>
-                <element signature="e#1044#1050#0" expanded="true" />
-                <element signature="e#1057#1063#0" expanded="true" />
-                <element signature="e#1064#1070#0" expanded="true" />
-                <element signature="e#1103#1109#0" expanded="true" />
-                <element signature="e#1147#1153#0" expanded="true" />
-                <element signature="e#1160#1166#0" expanded="true" />
-                <element signature="e#1385#1391#0" expanded="true" />
-                <element signature="e#1393#1399#0" expanded="true" />
-                <element signature="e#1411#1417#1" expanded="true" />
-                <element signature="e#1453#1459#0" expanded="true" />
-                <element signature="e#1479#1485#0" expanded="true" />
-                <element signature="e#1490#1496#0" expanded="true" />
-                <element signature="e#1508#1514#1" expanded="true" />
-                <element signature="e#1550#1556#0" expanded="true" />
-                <element signature="e#1576#1582#0" expanded="true" />
-                <element signature="e#1587#1593#0" expanded="true" />
-                <element signature="e#1925#1931#0" expanded="true" />
-                <element signature="e#1933#1939#0" expanded="true" />
-                <element signature="e#1951#1957#1" expanded="true" />
-                <element signature="e#1993#1999#0" expanded="true" />
-                <element signature="e#2067#2073#0" expanded="true" />
-                <element signature="e#2076#2082#0" expanded="true" />
-                <element signature="e#2094#2100#1" expanded="true" />
-                <element signature="e#2164#2170#0" expanded="true" />
-                <element signature="e#2253#2259#0" expanded="true" />
-                <element signature="e#2268#2274#0" expanded="true" />
-                <element signature="e#2286#2292#1" expanded="true" />
-                <element signature="e#2327#2333#0" expanded="true" />
-                <element signature="e#2373#2379#0" expanded="true" />
-                <element signature="e#2384#2390#0" expanded="true" />
-                <element signature="e#2402#2408#1" expanded="true" />
-                <element signature="e#2444#2450#0" expanded="true" />
-                <element signature="e#3985#3991#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScormUploadException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/ScormUploadException.java">
+      <file leaf-file-name="IScormParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectoryAlreadyExistsException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/DirectoryAlreadyExistsException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IScormParserResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParserResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="53" />
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S3CloudResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3CloudResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScormPackage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ScormPackage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="-690">
+              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#915#921#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#2921#2935#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SCORMHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/SCORMHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#367#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516-sources.jar!/org/json/JSONObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="721" column="18" lean-forward="true" selection-start-line="721" selection-start-column="18" selection-end-line="721" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IPackageNavigation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageNavigation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -225,8 +258,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="XSLT Stylesheet" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -243,6 +276,7 @@
       <find>JDK</find>
       <find>JD</find>
       <find>J</find>
+      <find>getStr</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -266,7 +300,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/PackageNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/util/zip.java" />
         <option value="$PROJECT_DIR$/scorm-parser.iml" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/BadSCORMPackageException.java" />
@@ -275,18 +308,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/ScormParserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/util/UnZip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/UnsupportedManifestTypeException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/DirectoryAlreadyExistsException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/ScormUploadException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/allego/scorm/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParserResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3CloudResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl" />
         <option value="$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl" />
         <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IStudentLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ItemNotFounfException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/ItemNotFounfException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageNavigation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/SCORMHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java" />
       </list>
     </option>
   </component>
@@ -611,6 +651,7 @@
       <recent name="com.allego.scorm" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.allego.scorm.lom" />
       <recent name="com.allego.scorm" />
     </key>
   </component>
@@ -1182,7 +1223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1495464234830</updated>
       <workItem from="1495464286746" duration="51165000" />
-      <workItem from="1496143402598" duration="29442000" />
+      <workItem from="1496143402598" duration="39714000" />
     </task>
     <task id="LOCAL-00001" summary="alfa version (without s3 lambda to unzip)">
       <created>1495540905044</created>
@@ -1255,11 +1296,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80607000" />
+    <option name="totallyTimeSpent" value="90879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1268,15 +1308,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.3515625" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.35677084" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.6484375" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.6432292" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1318,16 +1358,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1462,12 +1492,12 @@
           <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#605#606#0" expanded="false" />
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#1483#1484#0" expanded="false" />
-            <element signature="e#1547#1548#0" expanded="false" />
+            <element signature="e#1540#1541#0" expanded="false" />
+            <element signature="e#1567#1568#0" expanded="false" />
+            <element signature="e#1891#1892#0" expanded="false" />
+            <element signature="e#1933#1934#0" expanded="false" />
+            <element signature="e#2571#2572#0" expanded="false" />
+            <element signature="e#2635#2636#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1605,25 +1635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/UnsupportedManifestTypeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#191#192#0" expanded="false" />
-            <element signature="e#215#216#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scorm2004" />
     <entry file="file://$PROJECT_DIR$/scorm.properties" />
     <entry file="file://$PROJECT_DIR$/scorm2004.xsl" />
@@ -1634,14 +1645,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1664,14 +1667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1685,17 +1680,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516-sources.jar!/org/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2049">
-          <caret line="156" column="11" lean-forward="false" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
-          <folding>
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6065#6066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1715,18 +1699,6 @@
         <state relative-caret-position="201">
           <caret line="1229" column="18" lean-forward="false" selection-start-line="1229" selection-start-column="18" selection-end-line="1229" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1765,20 +1737,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="480">
+          <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/UnsupportedManifestTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/ItemNotFounfException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm12.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="57" />
+        <state relative-caret-position="258">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="e#1044#1050#0" expanded="true" />
             <element signature="e#1057#1063#0" expanded="true" />
@@ -1817,10 +1821,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IPackageNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/allego/scorm/scorm2004.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
           <folding>
             <element signature="e#1008#1014#0" expanded="true" />
             <element signature="e#1021#1027#0" expanded="true" />
@@ -1876,12 +1888,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/S3ScormUploader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20170516/json-20170516-sources.jar!/org/json/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="172" column="39" lean-forward="true" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+        <state relative-caret-position="267">
+          <caret line="721" column="18" lean-forward="true" selection-start-line="721" selection-start-column="18" selection-end-line="721" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/SCORMHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#367#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IStudentLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/allego/scorm/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/IScormParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allego/scorm/lom/ScormPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#915#921#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#2921#2935#0" expanded="true" />
           </folding>
         </state>
       </provider>
