@@ -2,6 +2,7 @@ package com.allego.scorm.lom;
 
 import com.allego.scorm.IPackageItem;
 import com.allego.scorm.IPackageNavigation;
+import com.allego.scorm.ISCORMPackageRecord;
 import com.allego.scorm.IStudentLog;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,7 +14,7 @@ import java.util.List;
 /**
  * Created by e_walker on 23.05.17.
  */
-public class ScormPackage implements IPackageNavigation {
+public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
 
     private String packageScormVersion;
 
@@ -22,16 +23,23 @@ public class ScormPackage implements IPackageNavigation {
 
     private  ArrayList<Item> items = new ArrayList();
     private String defaultOrganisation;
-    private String baseURL;
+
 
     public ScormPackage(String scormVersion, JSONObject data, String url) {
         packageScormVersion = scormVersion;
         rawData = data;
+        location = url;
         items = parseChilds();
-        baseURL = url;
 
 
     }
+
+    public ScormPackage(ISCORMPackageRecord record) {
+        this(record.getScormVersion(), record.getPackageData(), record.getPackageURL());
+
+    }
+
+
 
     private ArrayList<Item> parseChilds() {
         ArrayList<Item> result = new ArrayList<Item>();
@@ -41,7 +49,7 @@ public class ScormPackage implements IPackageNavigation {
             for (Object orgIteration : organisations) {
                 JSONObject organisation = (JSONObject) orgIteration;
                 String id = organisation.getString("id");
-                result = SCORMHelper.parseItems(organisation, id, baseURL);
+                result = SCORMHelper.parseItems(organisation, id, location);
             }
 
 
@@ -55,9 +63,7 @@ public class ScormPackage implements IPackageNavigation {
     public void setLocation(String path) {
         location = path;
     }
-    public String getCallPath(String item) {
-        return null;
-    }
+
     public Item getFirstCallItem() {
         if (!items.isEmpty()) {
             for (Item item : items) {
@@ -122,4 +128,18 @@ public class ScormPackage implements IPackageNavigation {
         }
 
     }
+
+    public ISCORMPackageRecord getPackageRecord() {
+        return this;
+    }
+
+    public JSONObject getPackageData() {
+        return rawData;
+    }
+
+    public String getPackageURL() {
+        return location;
+    }
+
+
 }

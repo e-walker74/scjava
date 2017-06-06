@@ -87,7 +87,7 @@ public class S3ScormUploader  implements IScormParser{
         throw new BadSCORMPackageException("Cannot resolve SCORM version");
     }
 
-    private ScormPackage parseManifest(String manifest) throws ParserConfigurationException, BadSCORMPackageException {
+    private ScormPackage parseManifest(String manifest, String packageURL) throws ParserConfigurationException, BadSCORMPackageException {
 
         ScormPackage result = null;
         String version = null;
@@ -127,7 +127,7 @@ public class S3ScormUploader  implements IScormParser{
 
             JSONObject json = new JSONObject(defSCORMData);
 
-            result =  new ScormPackage(version,json);
+            result = new ScormPackage(version, json, packageURL);
 
         } catch (Exception e) {
             throw new ParserConfigurationException(e.getMessage());
@@ -188,9 +188,10 @@ public class S3ScormUploader  implements IScormParser{
 
     }
 
-    public IScormParserResult parse(String pathToInputScormPackage, String s3AccessKey, String s3SecretKey, String bucket, String parentTargetPath)  {
+    public IScormParserResult parse(String pathToInputScormPackage, String s3AccessKey, String s3SecretKey, String bucket, String parentTargetPath, String bucketURL) {
 
         UnZip zip = new UnZip(pathToInputScormPackage);
+        String packageURL = parentTargetPath + "/" + bucketURL;
         int parserResult = IScormParserResult.STATUS_SUCCESS;
         byte[] data = null;
         try {
@@ -207,7 +208,7 @@ public class S3ScormUploader  implements IScormParser{
 
         ScormPackage packageSCORM = null;
         try {
-            packageSCORM = parseManifest(manifest);
+            packageSCORM = parseManifest(manifest, packageURL);
         } catch (ParserConfigurationException e) {
             parserResult = IScormParserResult.STATUS_INVALID_SCORM_FORMAT;
         } catch (BadSCORMPackageException e) {

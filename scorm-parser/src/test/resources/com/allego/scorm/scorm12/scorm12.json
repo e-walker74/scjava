@@ -1,0 +1,125 @@
+{
+  "default": "golf_sample_default_org",
+  "bundles": [
+    {
+      "id": "golf_sample_default_org",
+      "title": "Golf Explained - Minimum Run-time Calls",
+      "items": [
+        {
+          "id": "playing_item",
+          "title": "Playing the Game",
+          "items": [
+            {
+              "id": "playing_playing_item",
+              "url": "Playing/Playing.html",
+              "title": "How to Play"
+            },
+            {
+              "id": "playing_par_item",
+              "url": "Playing/Par.html",
+              "title": "Par"
+            },
+            {
+              "id": "playing_scoring_item",
+              "url": "Playing/Scoring.html",
+              "title": "Keeping Score"
+            },
+            {
+              "id": "playing_otherscoring_item",
+              "url": "Playing/OtherScoring.html",
+              "title": "Other Scoring Systems"
+            },
+            {
+              "id": "playing_rules_item",
+              "url": "Playing/RulesOfGolf.html",
+              "title": "The Rules of Golf"
+            },
+            {
+              "id": "playing_quiz_item",
+              "url": "shared/assessmenttemplate.html",
+              "title": "Playing Golf Quiz"
+            }
+          ]
+        },
+        {
+          "id": "etiquette_item",
+          "title": "Etiquette",
+          "items": [
+            {
+              "id": "etiquette_course_item",
+              "url": "Etiquette/Course.html",
+              "title": "Taking Care of the Course"
+            },
+            {
+              "id": "etiquette_distracting_item",
+              "url": "Etiquette/Distracting.html",
+              "title": "Avoiding Distraction"
+            },
+            {
+              "id": "etiquette_play_item",
+              "url": "Etiquette/Play.html",
+              "title": "Playing Politely"
+            },
+            {
+              "id": "etiquette_quiz_item",
+              "url": "shared/assessmenttemplate.html",
+              "title": "Etiquette Quiz"
+            }
+          ]
+        },
+        {
+          "id": "handicapping_item",
+          "title": "Handicapping",
+          "items": [
+            {
+              "id": "handicapping_overview_item",
+              "url": "Handicapping/Overview.html",
+              "title": "Handicapping Overview"
+            },
+            {
+              "id": "handicapping_calchandi_item",
+              "url": "Handicapping/CalculatingHandicap.html",
+              "title": "Calculating a Handicap"
+            },
+            {
+              "id": "handicapping_calcscore_item",
+              "url": "Handicapping/CalculatingScore.html",
+              "title": "Calculating a Handicapped Score"
+            },
+            {
+              "id": "handicapping_example_item",
+              "url": "Handicapping/CalculatingScore.html",
+              "title": "Handicapping Example"
+            },
+            {
+              "id": "handicapping_quiz_item",
+              "url": "shared/assessmenttemplate.html",
+              "title": "Handicapping Quiz"
+            }
+          ]
+        },
+        {
+          "id": "havingfun_item",
+          "title": "Having Fun",
+          "items": [
+            {
+              "id": "havingfun_howto_item",
+              "url": "HavingFun/HowToHaveFun.html",
+              "title": "How to Have Fun Playing Golf"
+            },
+            {
+              "id": "havingfun_makefriends_item",
+              "url": "HavingFun/MakeFriends.html",
+              "title": "How to Make Friends Playing Golf"
+            },
+            {
+              "id": "havingfun_quiz_item",
+              "url": "shared/assessmenttemplate.html",
+              "title": "Having Fun Quiz"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

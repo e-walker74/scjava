@@ -1,7 +1,6 @@
 package com.allego.scorm;
 
 
-import com.allego.scorm.lom.Item;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.ObjectListing;
@@ -16,8 +15,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import static org.mockito.Mockito.*;
-
 
 public class AppTest {
 
@@ -30,7 +27,7 @@ public class AppTest {
     private String pathTest2 = "test2";
     private String pathTest3 = "test3";
 
-    private IStudentLog log;
+
 
 
 
@@ -65,6 +62,7 @@ public class AppTest {
     }
 
 
+
     @Before
     public void InitSuite() throws IOException {
         Properties prop = new Properties();
@@ -77,11 +75,6 @@ public class AppTest {
         s3AccessKey = prop.getProperty("s3AccessKey");
         s3SecretKey = prop.getProperty("s3SecretKey");
 
-
-        log = mock(IStudentLog.class);
-        when(log.getSuspendedItem()).thenReturn(null);
-
-        when(log.isCompleted(any(Item.class))).thenReturn(false);
 
 
         //empty test folders
@@ -111,7 +104,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scorm12/golf12.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest1);
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest1, "http://scorm.allego.com/test");
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -140,7 +133,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scorm2004/golf2004.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest2);
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest2, "http://scorm.allego.com/test");
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -165,7 +158,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scormbad/scorm.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest3);
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest3, "http://scorm.allego.com/test");
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -177,6 +170,17 @@ public class AppTest {
         Assert.assertNotNull(resultData);
         Assert.assertEquals(resultData.getScormVersion(), IScormParserResult.INVALID_SCORM_VERSION);
         Assert.assertEquals(resultData.getStatus(), IScormParserResult.STATUS_INVALID_SCORM_FORMAT);
+    }
+
+    @org.junit.Test
+    public void testGetSCORM12() {
+
+    }
+
+
+    @org.junit.Test
+    public void testGetSCORM2004() {
+
     }
 
 
