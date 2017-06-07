@@ -104,7 +104,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scorm12/golf12.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest1, "http://scorm.allego.com/test");
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest1);
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -133,7 +133,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scorm2004/golf2004.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest2, "http://scorm.allego.com/test");
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest2);
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -158,7 +158,7 @@ public class AppTest {
 
             String path = AppTest.class.getResource("scormbad/scorm.zip").getFile();
 
-            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest3, "http://scorm.allego.com/test");
+            resultData = parser.parse(path, s3AccessKey, s3SecretKey, bucket, pathTest3);
         } catch (BadSCORMPackageException e) {
             e.printStackTrace();
             result = false;
@@ -170,17 +170,6 @@ public class AppTest {
         Assert.assertNotNull(resultData);
         Assert.assertEquals(resultData.getScormVersion(), IScormParserResult.INVALID_SCORM_VERSION);
         Assert.assertEquals(resultData.getStatus(), IScormParserResult.STATUS_INVALID_SCORM_FORMAT);
-    }
-
-    @org.junit.Test
-    public void testGetSCORM12() {
-
-    }
-
-
-    @org.junit.Test
-    public void testGetSCORM2004() {
-
     }
 
 

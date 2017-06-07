@@ -22,6 +22,8 @@ import static org.mockito.Mockito.when;
 public class AppTest2 {
     private IStudentLog log;
 
+    private IStudentLog log2;
+
     private ISCORMPackageRecord record12;
     private ISCORMPackageRecord record2004;
 
@@ -32,6 +34,15 @@ public class AppTest2 {
         when(log.getSuspendedItem()).thenReturn(null);
 
         when(log.isCompleted(any(Item.class))).thenReturn(false);
+        when(log.getPreferedMode()).thenReturn(IStudentLog.FIRST_ITEM);
+
+
+        log2 = mock(IStudentLog.class);
+        when(log2.getSuspendedItem()).thenReturn(null);
+
+        when(log2.isCompleted(any(Item.class))).thenReturn(false);
+        when(log2.getPreferedMode()).thenReturn(IStudentLog.FIRST_CALLABLE_ITEM);
+
 
 
         record12 = mock(ISCORMPackageRecord.class);
@@ -68,9 +79,9 @@ public class AppTest2 {
         IPackageNavigation navigation = testPackage;
         IPackageItem item = navigation.getMainPackage(log);
         try {
-            Assert.assertEquals(item.getItemId(), "playing_item");
-            Assert.assertEquals(item.getTitle(), "Playing the Game");
-            Assert.assertEquals(item.getURL(), "http://test-bucket.com");
+            Assert.assertEquals("playing_item", item.getItemId());
+            Assert.assertEquals("Playing the Game", item.getTitle());
+            Assert.assertEquals(null, item.getURL());
 
             List<IPackageItem> items = navigation.getCoursePackage(log);
 
@@ -86,9 +97,9 @@ public class AppTest2 {
         IPackageNavigation navigation = testPackage;
         IPackageItem item = navigation.getMainPackage(log);
         try {
-            Assert.assertEquals(item.getItemId(), "playing_item");
-            Assert.assertEquals(item.getTitle(), "Playing the Game");
-            Assert.assertEquals(item.getURL(), "http://test-bucket.com");
+            Assert.assertEquals("playing_item", item.getItemId());
+            Assert.assertEquals("Playing the Game", item.getTitle());
+            Assert.assertEquals(null, item.getURL());
 
             List<IPackageItem> items = navigation.getCoursePackage(log);
 
@@ -97,6 +108,46 @@ public class AppTest2 {
             e.printStackTrace();
         }
     }
+
+    @org.junit.Test
+    public void testApp3() {
+        ScormPackage testPackage = new ScormPackage(record12);
+        IPackageNavigation navigation = testPackage;
+        IPackageItem item = navigation.getMainPackage(log2);
+
+        try {
+
+            Assert.assertEquals("playing_playing_item", item.getItemId());
+            Assert.assertEquals("How to Play", item.getTitle());
+            Assert.assertEquals("http://test-bucket.comPlaying/Playing.html", item.getURL());
+
+
+        } catch (ItemNotFounfException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @org.junit.Test
+    public void testApp4() {
+        ScormPackage testPackage = new ScormPackage(record2004);
+        IPackageNavigation navigation = testPackage;
+        IPackageItem item = navigation.getMainPackage(log2);
+
+        try {
+
+            Assert.assertEquals("playing_playing_item", item.getItemId());
+            Assert.assertEquals("How to Play", item.getTitle());
+            Assert.assertEquals("http://test-bucket.comPlaying/Playing.html", item.getURL());
+
+
+        } catch (ItemNotFounfException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+
 
 }
 

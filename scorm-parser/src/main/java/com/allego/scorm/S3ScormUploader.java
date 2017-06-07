@@ -188,10 +188,10 @@ public class S3ScormUploader  implements IScormParser{
 
     }
 
-    public IScormParserResult parse(String pathToInputScormPackage, String s3AccessKey, String s3SecretKey, String bucket, String parentTargetPath, String bucketURL) {
+    public IScormParserResult parse(String pathToInputScormPackage, String s3AccessKey, String s3SecretKey, String bucket, String parentTargetPath) {
 
         UnZip zip = new UnZip(pathToInputScormPackage);
-        String packageURL = parentTargetPath + "/" + bucketURL;
+        String packageURL = parentTargetPath;
         int parserResult = IScormParserResult.STATUS_SUCCESS;
         byte[] data = null;
         try {

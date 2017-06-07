@@ -12,8 +12,7 @@ public interface IScormParser {
                               String s3AccessKey,
                               String s3SecretKey,
                               String bucket,
-                              String parentTargetPath,
-                              String baseURL) throws BadSCORMPackageException, ParserConfigurationException;
+                              String parentTargetPath) throws BadSCORMPackageException, ParserConfigurationException;
 
 
 

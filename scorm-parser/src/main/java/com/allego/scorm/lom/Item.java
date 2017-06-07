@@ -7,6 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by e_walker on 19.05.17.
@@ -66,17 +67,30 @@ public class Item implements IPackageItem {
     }
 
 
-    public String getURL() {
-
-
-        String url = "";
+    private String getRelativeURL() {
+        String url = null;
         try {
             url = rawData.getString("url");
         } catch (JSONException e) {
 
         }
+        return url;
+    }
 
-        return baseURL + url;
+    public boolean isSCO() {
+        return getRelativeURL() != null;
+    }
+
+    public String getURL() {
+
+        String url = getRelativeURL();
+
+        if (url != null) {
+            return baseURL + url;
+        } else {
+            return null;
+        }
+
     }
 
     public String getTitle() {
@@ -96,6 +110,13 @@ public class Item implements IPackageItem {
         } catch (JSONException e) {
             throw new ItemNotFounfException(e.getMessage());
         }
+        return result;
+    }
+
+    public List<IPackageItem> getChilds() {
+        ArrayList<IPackageItem> result = new ArrayList<IPackageItem>();
+        result.addAll(items);
+
         return result;
     }
 

@@ -32,6 +32,6 @@ public class S3CloudResult  implements  IScormParserResult{
         if (uploadedPackage == null){
             throw new PackageNotFoundException("Package is not created");
         }
-        return uploadedPackage.getFirstCallItem().getEntryPoint();
+        return uploadedPackage.getFirstItem().getEntryPoint();
     }
 }

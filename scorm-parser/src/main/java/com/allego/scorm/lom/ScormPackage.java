@@ -64,7 +64,7 @@ public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
         location = path;
     }
 
-    public Item getFirstCallItem() {
+    public Item getFirstItem() {
         if (!items.isEmpty()) {
             for (Item item : items) {
                 if (item.getOrganisationId().equals(defaultOrganisation)) {
@@ -76,6 +76,43 @@ public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
         return null;
 
     }
+
+    private Item getCallableItem(ArrayList<Item> scope, IStudentLog log) {
+
+        for (Item currItem : scope) {
+
+            if (currItem.isSCO() && (((log != null) && (!log.isCompleted(currItem))) || (log == null))) {
+                return currItem;
+
+            } else if (currItem.hasChilds()) {
+                Item callableChild = getCallableItem(currItem.getItems(), log);
+                if (callableChild != null) {
+                    return callableChild;
+                }
+            }
+
+        }
+        return null;
+    }
+
+    public Item getCallItem() {
+
+        return getCallableItem(items, null);
+
+    }
+
+    public Item getCallItem(IStudentLog log) {
+
+        return getCallableItem(items, null);
+
+    }
+
+
+
+
+
+
+
     public String getScormVersion() {
         return packageScormVersion;
     }
@@ -124,7 +161,21 @@ public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
         if (suspend != null) {
             return suspend;
         } else {
-            return getFirstCallItem();
+            IPackageItem result = null;
+            switch (student.getPreferedMode()) {
+                case IStudentLog.FIRST_ITEM:
+                    result = getFirstItem();
+                    break;
+                case IStudentLog.FIRST_CALLABLE_ITEM:
+                    result = getCallItem();
+                    break;
+                case IStudentLog.FIRST_CALLABLE_NOT_STARTED_ITEM:
+                    result = getCallItem(student);
+                    break;
+
+            }
+            return result;
+
         }
 
     }
