@@ -10,6 +10,8 @@ public interface IPackageItem {
     String getTitle();
     String getItemId() throws ItemNotFounfException;
 
+    String getRTESettings(String varName);
+
     List<IPackageItem> getChilds();
 
 }

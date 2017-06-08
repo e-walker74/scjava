@@ -80,9 +80,11 @@
     </xsl:template>
 
     <xsl:template match="adlcp:completionThreshold">
-        <xsl:text>,&quot;completionThreshold;:&quot;</xsl:text><xsl:text>{&quot;completedByMeasure:&quot;</xsl:text><xsl:value-of
-            select="@completedByMeasure"/>&quot;,<xsl:text> &quot;minProgressMeasure:&quot;</xsl:text><xsl:value-of
-            select="@minProgressMeasure"/>&quot;<xsl:text>}</xsl:text>
+        <xsl:text>,&quot;completionThreshold;:&quot;</xsl:text><xsl:text>{&quot;completedByMeasure:&quot;</xsl:text>
+        <xsl:value-of select="@completedByMeasure"/>&quot;,
+        <xsl:text>&quot;minProgressMeasure:&quot;</xsl:text><xsl:value-of select="@minProgressMeasure"/>&quot;,
+        <xsl:text>&quot;value&quot;:&quot;</xsl:text><xsl:value-of select="."/>&quot;
+        <xsl:text>}</xsl:text>
     </xsl:template>
 
 

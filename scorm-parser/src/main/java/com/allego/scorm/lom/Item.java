@@ -113,6 +113,31 @@ public class Item implements IPackageItem {
         return result;
     }
 
+    public String getRTESettings(String varName) {
+        String result = "";
+        if (varName != null) {
+            if (varName.equals("cmi.max_time_allowed")) {
+                result = SCORMHelper.getJSONVarStringDefault(rawData, "maxTimeAllowed");
+            } else if (varName.equals("cmi.time_limit_action")) {
+                result = SCORMHelper.getJSONVarStringDefault(rawData, "actionOnTimeLimit");
+            } else if (varName.equals("cmi.launch_data")) {
+                result = SCORMHelper.getJSONVarStringDefault(rawData, "dataFromLMS");
+            } else if (varName.equals("cmi.student_data.mastery_score")) {
+                result = SCORMHelper.getJSONVarStringDefault(rawData, "masteryScore");
+            } else if (varName.equals("cmi.completion_threshold")) {
+                JSONObject object = SCORMHelper.getJSONVarObjectDefault(rawData, "completionThreshold");
+                String completedByMeasure = SCORMHelper.getJSONVarStringDefault(object, "completedByMeasure");
+                if ((completedByMeasure != null) && (completedByMeasure.equals("true"))) {
+                    result = SCORMHelper.getJSONVarStringDefault(object, "minProgressMeasure");
+                } else {
+                    result = SCORMHelper.getJSONVarStringDefault(object, "value");
+                }
+            }
+        }
+        return result;
+    }
+
+
     public List<IPackageItem> getChilds() {
         ArrayList<IPackageItem> result = new ArrayList<IPackageItem>();
         result.addAll(items);

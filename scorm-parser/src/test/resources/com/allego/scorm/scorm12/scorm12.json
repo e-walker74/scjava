@@ -12,7 +12,10 @@
             {
               "id": "playing_playing_item",
               "url": "Playing/Playing.html",
-              "title": "How to Play"
+              "title": "How to Play",
+              "maxTimeAllowed": "00:00:30",
+              "dataFromLMS": "test data",
+              "masteryScore": "0.75"
             },
             {
               "id": "playing_par_item",

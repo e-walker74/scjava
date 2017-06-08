@@ -12,7 +12,14 @@
             {
               "id": "playing_playing_item",
               "url": "Playing/Playing.html",
-              "title": "How to Play"
+              "title": "How to Play",
+              "actionOnTimeLimit": "exit,no message",
+              "dataFromLMS": "test data",
+              "completionThreshold": {
+                "completedByMeasure": "true",
+                "minProgressMeasure": "0.5",
+                "value": ""
+              }
             },
             {
               "id": "playing_par_item",

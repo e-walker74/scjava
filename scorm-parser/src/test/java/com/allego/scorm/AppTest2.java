@@ -121,6 +121,14 @@ public class AppTest2 {
             Assert.assertEquals("How to Play", item.getTitle());
             Assert.assertEquals("http://test-bucket.comPlaying/Playing.html", item.getURL());
 
+            Assert.assertEquals("00:00:30", item.getRTESettings("cmi.max_time_allowed"));
+            Assert.assertEquals("test data", item.getRTESettings("cmi.launch_data"));
+            Assert.assertEquals("0.75", item.getRTESettings("cmi.student_data.mastery_score"));
+            Assert.assertNull(item.getRTESettings("cmi.time_limit_action"));
+
+
+
+
 
         } catch (ItemNotFounfException e) {
             e.printStackTrace();
@@ -138,6 +146,11 @@ public class AppTest2 {
             Assert.assertEquals("playing_playing_item", item.getItemId());
             Assert.assertEquals("How to Play", item.getTitle());
             Assert.assertEquals("http://test-bucket.comPlaying/Playing.html", item.getURL());
+
+            Assert.assertEquals("exit,no message", item.getRTESettings("cmi.time_limit_action"));
+            Assert.assertEquals("test data", item.getRTESettings("cmi.launch_data"));
+            Assert.assertEquals("0.5", item.getRTESettings("cmi.completion_threshold"));
+            Assert.assertNull(item.getRTESettings("cmi.max_time_allowed"));
 
 
         } catch (ItemNotFounfException e) {

@@ -26,4 +26,33 @@ public class SCORMHelper {
         return result;
     }
 
+    public static String getJSONVarStringDefault(JSONObject object, String varName) {
+        return getJSONVarStringDefault(object, varName, null);
+    }
+
+    public static String getJSONVarStringDefault(JSONObject object, String varName, String defaultVal) {
+        String result = defaultVal;
+        try {
+            result = object.getString(varName);
+
+
+        } catch (JSONException e) {
+
+        }
+        return result;
+    }
+
+    public static JSONObject getJSONVarObjectDefault(JSONObject object, String varName) {
+        JSONObject result = null;
+        try {
+            result = object.getJSONObject(varName);
+
+
+        } catch (JSONException e) {
+
+        }
+        return result;
+
+    }
+
 }
