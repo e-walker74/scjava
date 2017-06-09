@@ -43,13 +43,19 @@ public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
 
     private ArrayList<Item> parseChilds() {
         ArrayList<Item> result = new ArrayList<Item>();
+        String preparedLocation = location;
+        if (!preparedLocation.endsWith("/")) {
+            preparedLocation += "/";
+        }
+
+
         try {
             JSONArray organisations = rawData.getJSONArray("bundles");
             defaultOrganisation = rawData.getString("default");
             for (Object orgIteration : organisations) {
                 JSONObject organisation = (JSONObject) orgIteration;
                 String id = organisation.getString("id");
-                result = SCORMHelper.parseItems(organisation, id, location);
+                result = SCORMHelper.parseItems(organisation, id, preparedLocation);
             }
 
 
@@ -58,10 +64,6 @@ public class ScormPackage implements IPackageNavigation, ISCORMPackageRecord {
         }
         return result;
 
-    }
-
-    public void setLocation(String path) {
-        location = path;
     }
 
     public Item getFirstItem() {

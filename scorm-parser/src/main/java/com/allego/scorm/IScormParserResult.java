@@ -18,4 +18,6 @@ public interface IScormParserResult {
     public int	    getStatus();
     public String   getScormContentEntryPoint() throws PackageNotFoundException;
 
+    public IPackageNavigation getPackageNavigation();
+
 }

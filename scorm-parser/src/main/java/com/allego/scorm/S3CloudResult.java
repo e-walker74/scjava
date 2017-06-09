@@ -34,4 +34,8 @@ public class S3CloudResult  implements  IScormParserResult{
         }
         return uploadedPackage.getFirstItem().getEntryPoint();
     }
+
+    public IPackageNavigation getPackageNavigation() {
+        return uploadedPackage;
+    }
 }
